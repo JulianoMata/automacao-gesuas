@@ -1,0 +1,28 @@
+# Ambientes Virtuais
+.venv/
+env/
+venv/
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de Dados com Sigilo CadÚnico / LGPD
+DADOS_BRUTOS/
+CADASTRO_ATUALIZACAO_*.xlsx
+Relatorios_GESUAS/*.pdf
+*.xlsx
+*.pdf
+
+# Perfis Temporários e Logs do Navegador / Playwright
+EdgeRPA_Sessao/
+*.log
+
+# Pastas de Build do PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Configurações de IDE
+.vscode/
+.idea/
